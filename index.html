@@ -2,6 +2,7 @@
 <html lang="vi">
 
 <head>
+
     <meta charset="UTF-8">
 
     <meta
@@ -9,34 +10,72 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>Verity | Trợ lý AI cho mọi server Discord</title>
-
     <meta
         name="description"
-        content="Verity là trợ lý AI cho mọi server Discord."
+        content="Verity - Trợ lý AI cho mọi server Discord."
     >
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Verity - AI Assistant for Every Server</title>
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    >
+
 </head>
 
 <body>
 
-<header class="navbar">
+<div class="page-glow glow-one"></div>
+<div class="page-glow glow-two"></div>
 
-    <a href="index.html" class="logo">
-        Verity<span>.</span>
+<header class="navbar" id="navbar">
+
+    <a href="index.html" class="brand">
+        <span class="brand-orb"></span>
+        Verity
     </a>
 
-    <nav>
-        <a href="pages/install.html">Install</a>
-        <a href="pages/docs.html">Docs</a>
-        <a href="pages/news.html">News</a>
-        <a href="pages/status.html">Status</a>
+    <nav class="nav-links">
+
+        <a href="index.html" class="active">
+            Home
+        </a>
+
+        <a href="install.html">
+            Install
+        </a>
+
+        <a href="docs.html">
+            Docs
+        </a>
+
+        <a href="news.html">
+            News
+        </a>
+
+        <a href="status.html">
+            Status
+        </a>
+
     </nav>
 
-    <a href="pages/install.html" class="nav-button">
+    <a
+        href="install.html"
+        class="nav-install"
+    >
         Add Verity
     </a>
+
+    <button
+        class="mobile-menu"
+        id="mobileMenu"
+        aria-label="Open menu"
+    >
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 
 </header>
 
@@ -45,39 +84,113 @@
 
 <section class="hero">
 
-    <div class="hero-content reveal">
+    <div class="hero-copy reveal">
 
-        <div class="badge">
-            ● Verity is evolving
+        <div class="status-pill">
+
+            <span class="status-dot"></span>
+
+            Verity is evolving
+
         </div>
 
         <h1>
+
             Your AI assistant
-            <br>
-            <span>for every server.</span>
+
+            <span>
+                for every server.
+            </span>
+
         </h1>
 
-        <p>
-            Verity là trợ lý AI được xây dựng cho
-            mọi server Discord.
-            Chat, moderation, utilities và nhiều hơn nữa.
+        <p class="hero-description">
+
+            Verity là trợ lý AI được xây dựng
+            cho mọi server Discord.
+
+            AI, moderation, utilities,
+            entertainment và nhiều hơn nữa.
+
         </p>
 
-        <div class="hero-buttons">
+        <div class="hero-actions">
 
             <a
-                href="pages/install.html"
-                class="button primary"
+                href="install.html"
+                class="button button-primary"
             >
                 Add Verity
             </a>
 
             <a
-                href="pages/docs.html"
-                class="button secondary"
+                href="docs.html"
+                class="button button-secondary"
             >
-                Documentation
+                Explore Docs
+                <span>→</span>
             </a>
+
+        </div>
+
+        <div class="hero-meta">
+
+            <span>
+                Discord
+            </span>
+
+            <span>
+                AI Assistant
+            </span>
+
+            <span>
+                Team HX Verity
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual reveal">
+
+        <div class="orb-shadow"></div>
+
+        <div class="verity-orb">
+
+            <div class="orb-inner">
+
+                <div class="orb-eye eye-left"></div>
+                <div class="orb-eye eye-right"></div>
+
+            </div>
+
+        </div>
+
+        <div class="orb-ring ring-one"></div>
+        <div class="orb-ring ring-two"></div>
+
+        <div class="floating-card card-top">
+
+            <span class="mini-dot"></span>
+
+            AI Assistant
+
+            <strong>
+                Ready
+            </strong>
+
+        </div>
+
+        <div class="floating-card card-bottom">
+
+            <span class="mini-dot"></span>
+
+            Discord
+
+            <strong>
+                Connected
+            </strong>
 
         </div>
 
@@ -86,22 +199,22 @@
 </section>
 
 
-<section class="section" id="features">
+<section class="section intro-section">
 
-    <div class="section-header reveal">
+    <div class="section-heading reveal">
 
         <p class="eyebrow">
-            FEATURES
+            BUILT FOR DISCORD
         </p>
 
         <h2>
-            Một trợ lý.
-            <span>Nhiều khả năng.</span>
+            One assistant.
+            <span>Many capabilities.</span>
         </h2>
 
         <p>
-            Verity được thiết kế để thích nghi
-            với từng server Discord.
+            Verity được thiết kế để trở thành
+            một trợ lý đa năng cho cộng đồng Discord.
         </p>
 
     </div>
@@ -109,110 +222,134 @@
 
     <div class="feature-grid">
 
-        <article class="card reveal">
+        <article class="feature-card reveal">
 
-            <div class="card-icon">
+            <span class="feature-number">
                 01
-            </div>
+            </span>
 
             <h3>
                 AI Assistant
             </h3>
 
             <p>
-                Trò chuyện và tương tác với Verity
-                ngay trong Discord.
+                Trò chuyện và tương tác với
+                Verity ngay trong server.
             </p>
+
+            <span class="feature-link">
+                AI →
+            </span>
 
         </article>
 
 
-        <article class="card reveal">
+        <article class="feature-card reveal">
 
-            <div class="card-icon">
+            <span class="feature-number">
                 02
-            </div>
+            </span>
 
             <h3>
                 Moderation
             </h3>
 
             <p>
-                Hỗ trợ quản trị viên quản lý
-                cộng đồng hiệu quả hơn.
+                Các công cụ hỗ trợ quản trị
+                và bảo vệ cộng đồng.
             </p>
+
+            <span class="feature-link">
+                Moderation →
+            </span>
 
         </article>
 
 
-        <article class="card reveal">
+        <article class="feature-card reveal">
 
-            <div class="card-icon">
+            <span class="feature-number">
                 03
-            </div>
+            </span>
 
             <h3>
                 Utilities
             </h3>
 
             <p>
-                Các công cụ tiện ích cho
-                server và thành viên.
+                Những tiện ích giúp server
+                hoạt động thuận tiện hơn.
             </p>
+
+            <span class="feature-link">
+                Utilities →
+            </span>
 
         </article>
 
 
-        <article class="card reveal">
+        <article class="feature-card reveal">
 
-            <div class="card-icon">
+            <span class="feature-number">
                 04
-            </div>
+            </span>
 
             <h3>
                 Entertainment
             </h3>
 
             <p>
-                Tạo thêm trải nghiệm tương tác
-                cho cộng đồng.
+                Tăng tương tác và tạo thêm
+                trải nghiệm cho thành viên.
             </p>
+
+            <span class="feature-link">
+                Entertainment →
+            </span>
 
         </article>
 
 
-        <article class="card reveal">
+        <article class="feature-card reveal">
 
-            <div class="card-icon">
+            <span class="feature-number">
                 05
-            </div>
+            </span>
 
             <h3>
-                Customizable
+                Customization
             </h3>
 
             <p>
-                Cấu hình Verity theo nhu cầu
-                của từng server.
+                Cấu hình Verity phù hợp với
+                từng server.
             </p>
+
+            <span class="feature-link">
+                Configuration →
+            </span>
 
         </article>
 
 
-        <article class="card reveal">
+        <article class="feature-card reveal">
 
-            <div class="card-icon">
+            <span class="feature-number">
                 06
-            </div>
+            </span>
 
             <h3>
-                Developer API
+                Developer
             </h3>
 
             <p>
-                Tích hợp Verity vào các hệ thống
-                và ứng dụng khác.
+                Hệ thống được thiết kế để
+                tiếp tục mở rộng trong tương lai.
             </p>
+
+            <span class="feature-link">
+                Developers →
+            </span>
 
         </article>
 
@@ -221,9 +358,154 @@
 </section>
 
 
-<section class="section">
+<section class="section command-section">
 
-    <div class="cta reveal">
+    <div class="command-intro reveal">
+
+        <p class="eyebrow">
+            COMMANDS
+        </p>
+
+        <h2>
+            Everything starts
+            <span>with a command.</span>
+        </h2>
+
+        <p>
+            Khám phá hệ thống command của Verity
+            và xem cách từng tính năng hoạt động.
+        </p>
+
+        <a
+            href="docs.html"
+            class="text-link"
+        >
+            View Documentation →
+        </a>
+
+    </div>
+
+
+    <div class="command-list reveal">
+
+        <div class="command-row">
+
+            <code>
+                /ai
+            </code>
+
+            <div>
+
+                <strong>
+                    AI Assistant
+                </strong>
+
+                <span>
+                    Talk with Verity
+                </span>
+
+            </div>
+
+            <span class="command-arrow">
+                →
+            </span>
+
+        </div>
+
+
+        <div class="command-row">
+
+            <code>
+                /help
+            </code>
+
+            <div>
+
+                <strong>
+                    Help
+                </strong>
+
+                <span>
+                    View available commands
+                </span>
+
+            </div>
+
+            <span class="command-arrow">
+                →
+            </span>
+
+        </div>
+
+
+        <div class="command-row">
+
+            <code>
+                /server
+            </code>
+
+            <div>
+
+                <strong>
+                    Server
+                </strong>
+
+                <span>
+                    View server information
+                </span>
+
+            </div>
+
+            <span class="command-arrow">
+                →
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section status-preview">
+
+    <div class="status-preview-inner reveal">
+
+        <div>
+
+            <p class="eyebrow">
+                SYSTEM STATUS
+            </p>
+
+            <h2>
+                All systems
+                <span>operational.</span>
+            </h2>
+
+            <p>
+                Kiểm tra trạng thái các dịch vụ
+                của Verity theo thời gian thực.
+            </p>
+
+        </div>
+
+        <a
+            href="status.html"
+            class="button button-secondary"
+        >
+            View Status →
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="section final-cta">
+
+    <div class="cta-box reveal">
+
+        <div class="cta-orb"></div>
 
         <p class="eyebrow">
             GET STARTED
@@ -234,14 +516,14 @@
         </h2>
 
         <p>
-            Đưa trợ lý AI của bạn vào server Discord.
+            Đưa Verity vào server Discord của bạn.
         </p>
 
         <a
-            href="pages/install.html"
-            class="button primary"
+            href="install.html"
+            class="button button-primary"
         >
-            Install Verity
+            Add Verity
         </a>
 
     </div>
@@ -251,46 +533,72 @@
 </main>
 
 
-<footer>
+<footer class="footer">
 
-    <div>
-        <strong>Verity</strong>
+    <div class="footer-brand">
+
+        <a
+            href="index.html"
+            class="brand"
+        >
+            <span class="brand-orb"></span>
+            Verity
+        </a>
+
         <p>
             Trợ lý AI cho mọi server Discord.
         </p>
+
     </div>
 
-    <div class="footer-links">
 
-        <a href="pages/install.html">
+    <div class="footer-column">
+
+        <strong>
+            Product
+        </strong>
+
+        <a href="install.html">
             Install
         </a>
 
-        <a href="pages/docs.html">
+        <a href="docs.html">
             Docs
         </a>
 
-        <a href="pages/news.html">
+        <a href="news.html">
             News
         </a>
 
-        <a href="pages/status.html">
+        <a href="status.html">
             Status
         </a>
 
-        <a href="pages/legal/terms.html">
+    </div>
+
+
+    <div class="footer-column">
+
+        <strong>
+            Legal
+        </strong>
+
+        <a href="terms.html">
             Terms
         </a>
 
-        <a href="pages/legal/privacy.html">
+        <a href="privacy.html">
             Privacy
         </a>
 
     </div>
 
-    <div class="copyright">
+
+    <div class="footer-bottom">
+
         © 2626 for Team HX Verity.
         All Right Reserved.
+
     </div>
 
 </footer>
